@@ -3,8 +3,15 @@ membuat bot discord
 
 ### Usage
 1. Clone this repository
-    ```bash git clone https://github.com/Seinzzz/project-wots ```
-2. Install dependecies (`npm install`)
-3. Rename ```bash config.example.json to config.json ``` 
-4. Start the development environment
-    ```bash node src/index.js ```
+    ```bash
+   git clone https://github.com/Seinzzz/project-wots
+    ```
+3. Install dependecies ```bash
+   npm install
+   ```
+5. Rename `config.example.json to config.json`
+6. Put the `TOKEN` and `CLIENT_ID` to `config.json`
+7. Start the development environment
+    ```bash
+    node src/index.js
+     ```
