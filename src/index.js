@@ -12,6 +12,10 @@ const commands = [
     name: 'ping',
     description: 'Replies with Pong!',
   },
+  {
+    name: 'hello',
+    description: 'Replies with Holla!',
+  },
 ];
 
 // When the client is ready, run this code (only once)
@@ -40,6 +44,9 @@ client.on('interactionCreate', async interaction => {
 
   if (interaction.commandName === 'ping') {
     await interaction.reply('HAI JINGKONTOTT!!');
+  }
+  if (interaction.commandName === 'hello') {
+    await interaction.reply('Hai!');
   }
 });
 
