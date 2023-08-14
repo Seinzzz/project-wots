@@ -1,0 +1,12 @@
+.env
+.eslintignore
+.gitignore
+node_modules
+dist
+eslintrc.cjs
+tsconfig.json
+babel.config.js
+package.json
+package-lock.json
+README.md
+CONTRIBUTING.md

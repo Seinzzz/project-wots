@@ -1,18 +1,28 @@
-# project-wots
-membuat bot discord 
+# Project-wots
+
+Membuat bot discord
 
 ### Usage
+
 1. Clone this repository
-    ```bash
+   ```bash
    git clone https://github.com/Seinzzz/project-wots
-    ```
-3. Install dependecies
+   ```
+2. Install dependecies
    ```bash
     npm install
-    ```
-6. Rename `config.example.json to config.json`
-7. Put the `TOKEN` and `CLIENT_ID` to `config.json`
-8. Start the development environment
-    ```bash
-    node src/index.js
-     ```
+   ```
+3. Rename `.env-example to .env OR create new .env file and value same with .env-example`
+4. Put the `DC_TOKEN` and `DC_CLIENT_ID` to `.env`
+5. Start the development environment
+   ```bash
+   npm run dev
+   ```
+
+### See another command
+```
+npm run
+```
+
+### For contributor and collaborator
+1. Please read CONTRIBUTING.md File
