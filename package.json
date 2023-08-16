@@ -2,14 +2,19 @@
   "name": "project-wots",
   "version": "1.0.0",
   "description": "sebuah projek membuat bot discord ebout JKT48",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon ./src/index.js"
   },
   "keywords": [],
   "author": "zdne",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.12.1"
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "lint": "^0.8.19",
+    "nodemon": "^3.0.1"
   }
 }
