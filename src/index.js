@@ -67,7 +67,7 @@ client.on('interactionCreate', async (c) => {
       await c.reply({ embeds: [authorEmbed], ephemeral: true });
       break;
     case 'help':
-      await c.reply({ embeds: [commandsHelpEmbed], ephemeral: true });
+      await c.reply({ embeds: [commandsHelpEmbed] });
       break;
     default:
       break;

@@ -70,10 +70,6 @@ const commandsHelpEmbed = {
       name: '',
       value: `/ping\n/hello\n/info\n/author`,
     },
-    {
-      name: '\u200B',
-      value: '\u200B',
-    },
   ],
 };
 
