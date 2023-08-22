@@ -14,5 +14,9 @@ client
 
 // Listen for the ready event
 client.on(Events.ClientReady, () => {
-  console.log('Bot online!')
+  console.log('Bot online nih!')
+})
+
+client.on('messageCreate', msg => {
+  console.log(msg.content)
 })
