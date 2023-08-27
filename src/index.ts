@@ -4,7 +4,7 @@ import client from './discord'
 
 // Login to Discord with your client's token
 client
-  .login(process.env.DC_TOKEN)
+  .login(process.env.TOKEN)
   .then(() => {
     console.log('Logged in!')
   })

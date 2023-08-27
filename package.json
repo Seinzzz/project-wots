@@ -19,7 +19,8 @@
   "dependencies": {
     "discord.js": "^14.12.1",
     "dotenv": "^16.3.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "tsc-watch": "^6.0.4"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.22.5",
