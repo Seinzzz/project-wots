@@ -19,8 +19,7 @@
   "dependencies": {
     "discord.js": "^14.12.1",
     "dotenv": "^16.3.1",
-    "nodemon": "^3.0.1",
-    "tsc-watch": "^6.0.4"
+    "nodemon": "^3.0.1"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.22.5",
@@ -34,6 +33,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "^3.0.1",
     "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.4",
     "typescript": "^5.1.6"
   }
 }
